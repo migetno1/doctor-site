@@ -39,6 +39,33 @@ if ('IntersectionObserver' in window && sections.length) {
   sections.forEach((section) => observer.observe(section));
 }
 
+// ===== Fade-in on scroll =====
+const revealTargets = [
+  ...document.querySelectorAll('.about-media, .about-body, .section-banner, .service-card, .busby-details, .busby-map'),
+];
+
+if ('IntersectionObserver' in window && revealTargets.length) {
+  // Add the class via JS so content stays visible when JS is disabled.
+  revealTargets.forEach((el) => el.classList.add('reveal'));
+
+  // Stagger cards within their grid for a cascading effect.
+  document.querySelectorAll('.services-grid').forEach((grid) => {
+    [...grid.children].forEach((card, i) => {
+      card.style.setProperty('--reveal-delay', `${i * 70}ms`);
+    });
+  });
+
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle('is-visible', entry.isIntersecting);
+      });
+    },
+    { rootMargin: '-8% 0px -8% 0px', threshold: 0.15 }
+  );
+  revealTargets.forEach((el) => revealObserver.observe(el));
+}
+
 // ===== Current year in footer =====
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();

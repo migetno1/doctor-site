@@ -403,7 +403,21 @@ a:hover { text-decoration: underline; }
   .footer-grid { flex-direction: column; }
 }
 
+/* ===== Scroll reveal ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .7s ease, transform .7s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .btn:hover, .service-card:hover { transform: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
 }
