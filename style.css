@@ -137,6 +137,17 @@ a:hover { text-decoration: underline; }
 .nav-menu a.is-active:not(.btn) { color: var(--blue); }
 .nav-book { margin-left: 0.4rem; }
 
+/* Keep the primary "Book an appointment" buttons white-on-blue.
+   The generic .nav-menu a / .footer-contact a colour rules are more
+   specific than .btn-primary, so restore the button colour explicitly. */
+.nav-menu a.btn-primary,
+.nav-menu a.btn-primary:hover,
+.footer-contact a.btn-primary,
+.footer-contact a.btn-primary:hover {
+  color: var(--white);
+}
+.nav-menu a.btn { padding: 0.6em 1.4em; }
+
 .nav-toggle {
   display: none;
   flex-direction: column;
