@@ -1,5 +1,31 @@
+# Dependencies
 node_modules
+
+# Build output
 dist
-*.local
-.DS_Store
 .vite
+
+# Local env files
+*.local
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude
