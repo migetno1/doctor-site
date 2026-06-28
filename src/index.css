@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* ===================================================================
+   Design tokens — Warm Editorial Premium
+   =================================================================== */
+@theme {
+  /* Palette */
+  --color-ivory:       #FBF8F3;
+  --color-paper:       #F4EFE6;
+  --color-paper-deep:  #ECE4D6;
+  --color-ink:         #1A1F2B;
+  --color-ink-soft:    #4A5260;
+  --color-ink-faint:   #7A8290;
+  --color-forest:      #2E5D52;
+  --color-forest-deep: #224A41;
+  --color-forest-soft: #E4ECE8;
+  --color-clay:        #C9895F;
+  --color-clay-soft:   #E8D6C5;
+  --color-line:        rgba(26, 31, 43, 0.10);
+  --color-line-strong: rgba(26, 31, 43, 0.16);
+
+  /* Typography */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Shape & depth */
+  --radius:    18px;
+  --radius-sm: 12px;
+  --radius-lg: 28px;
+
+  --shadow-soft:  0 2px 8px rgba(26, 31, 43, 0.04), 0 12px 32px rgba(26, 31, 43, 0.06);
+  --shadow-lift:  0 8px 18px rgba(26, 31, 43, 0.08), 0 24px 60px rgba(26, 31, 43, 0.10);
+
+  /* Easing */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ===================================================================
+   Base — kept inside @layer base so Tailwind utilities (e.g. text-ivory)
+   always win over these element defaults. Unlayered CSS would otherwise
+   override layered utilities regardless of specificity.
+   =================================================================== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 84px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-forest);
+    color: var(--color-ivory);
+  }
+
+  img { display: block; max-width: 100%; }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+    color: var(--color-ink);
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  p { margin: 0; text-wrap: pretty; }
+
+  a { color: inherit; text-decoration: none; }
+}
+
+/* ===================================================================
+   Helper classes — in @layer components so colour utilities can
+   override them (e.g. `eyebrow text-clay-soft`).
+   =================================================================== */
+@layer components {
+  /* Thin uppercase eyebrow label */
+  .eyebrow {
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--color-forest);
+  }
+
+  /* Fluid display sizes */
+  .display-xl { font-size: clamp(2.9rem, 8vw, 6rem); }
+  .display-lg { font-size: clamp(2.2rem, 5vw, 3.6rem); }
+  .display-md { font-size: clamp(1.7rem, 3.4vw, 2.5rem); }
+
+  /* Decorative grain — blended into the section's own background so it
+     stays behind content (no stacking-order issues). */
+  .grain {
+    background-image: url("/images/atmosphere/subtle-texture-overlay.png");
+    background-size: 520px;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+  }
+
+  /* Custom underline reveal for nav links */
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1.5px;
+    width: 100%;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s var(--ease-out-soft);
+  }
+  .nav-link:hover::after,
+  .nav-link[data-active="true"]::after { transform: scaleX(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
