@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terraforming Mars — Card Tier List</title>
+<style>
+ :root{--bg:#0f1115;--panel:#171a21;--line:#262b35;--txt:#e8eaed;--mut:#9aa0aa;}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:24px}
+ h1{font-size:20px;margin:0 0 4px}
+ .sub{color:var(--mut);font-size:13px;margin-bottom:16px}
+ .bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+ .filt{cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--txt);
+   padding:5px 11px;border-radius:7px;font-weight:600;font-size:13px;border-left:3px solid var(--c)}
+ .filt.off{opacity:.35}
+ input{margin-left:auto;background:var(--panel);border:1px solid var(--line);color:var(--txt);
+   padding:7px 11px;border-radius:7px;font-size:13px;min-width:180px}
+ table{width:100%;border-collapse:collapse;background:var(--panel);border-radius:10px;overflow:hidden}
+ th,td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);font-size:14px}
+ th{background:#1e222b;color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em;position:sticky;top:0}
+ th.sortable{cursor:pointer;user-select:none}
+ th.sortable:hover{color:var(--txt)}
+ th.sortable .arrow{opacity:.4;font-size:10px;margin-left:4px}
+ th.sortable.asc .arrow,th.sortable.desc .arrow{opacity:1;color:var(--txt)}
+ tr:last-child td{border-bottom:none}
+ td.name{font-weight:600}
+ .tier{display:inline-block;min-width:26px;text-align:center;padding:2px 8px;border-radius:6px;color:#fff;font-weight:700;font-size:13px}
+ a{color:#5aa3ff;text-decoration:none} a:hover{text-decoration:underline}
+ .ts{color:var(--mut);font-size:12px;margin-left:2px}
+ .pending{color:var(--mut);font-style:italic;font-size:13px}
+ .count{color:var(--mut);font-size:13px;margin:10px 2px}
+</style></head><body>
+<h1>Terraforming Mars — Card Tier List</h1>
+<div class="sub">208 cards · tiers from your list · images from tm.hadronikle.com · video reviews (timestamped) from the "Mars Expert" YouTube playlist</div>
+<div class="bar"><button class="filt" data-t="S" style="--c:#e0457b">S</button><button class="filt" data-t="A" style="--c:#e8743b">A</button><button class="filt" data-t="B" style="--c:#e0b020">B</button><button class="filt" data-t="C" style="--c:#5aa84f">C</button><button class="filt" data-t="D" style="--c:#4a90d9">D</button><button class="filt" data-t="F" style="--c:#8a8d93">F</button><button class="filt" data-t="Whyyy?!?" style="--c:#6b3fa0">Whyyy?!?</button><input id="q" placeholder="Search cards…"></div>
+<div class="count" id="count"></div>
+<table><thead><tr><th class="sortable" data-sort="name">Card Name<span class="arrow">↕</span></th><th class="sortable" data-sort="tier">Tier<span class="arrow">↕</span></th><th>Card Image</th><th class="sortable" data-sort="time">Video Review<span class="arrow">↕</span></th></tr></thead>
+<tbody id="tb"><tr data-tier="S">
+<td class="name">AI Central</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20208%20-%20AI%20Central.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VE8r1wxXMds&amp;t=57s" target="_blank" rel="noopener">review ↗ <span class="ts">0:57</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Deimos Down</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20039%20-%20Deimos%20Down.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jjLBiAIf29k&amp;t=253s" target="_blank" rel="noopener">review ↗ <span class="ts">4:13</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Earth Catapult</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20070%20-%20Earth%20Catapult.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=vsUUbZUtvbc&amp;t=285s" target="_blank" rel="noopener">review ↗ <span class="ts">4:45</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Ecological Zone</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20128%20-%20Ecological%20Zone.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kgcV0u1_D6w&amp;t=67s" target="_blank" rel="noopener">review ↗ <span class="ts">1:07</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Giant Ice Asteroid</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20080%20-%20Giant%20Ice%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=2EJaMrZ_0vk&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Insects</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20148%20-%20Insects.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=3-_tHek-kjg&amp;t=137s" target="_blank" rel="noopener">review ↗ <span class="ts">2:17</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Kelp Farming</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20055%20-%20Kelp%20Farming.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KbFAFWfqS5w&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Large Convoy</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20143%20-%20Large%20Convoy.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KbFAFWfqS5w&amp;t=264s" target="_blank" rel="noopener">review ↗ <span class="ts">4:24</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Mars University</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20073%20-%20Mars%20University.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=8RkiMW-6HoM&amp;t=230s" target="_blank" rel="noopener">review ↗ <span class="ts">3:50</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Nitrogen-Rich Asteroid</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20037%20-%20Nitrogen-Rich%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VfGyxX_I94c&amp;t=186s" target="_blank" rel="noopener">review ↗ <span class="ts">3:06</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Research Outpost</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20020%20-%20Research%20Outpost.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ZE6YlEfJMEw&amp;t=92s" target="_blank" rel="noopener">review ↗ <span class="ts">1:32</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Restricted Area</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20199%20-%20Restricted%20Area.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ZE6YlEfJMEw&amp;t=177s" target="_blank" rel="noopener">review ↗ <span class="ts">2:57</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Terraforming Ganymede</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20197%20-%20Terraforming%20Ganymede.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=028t1Z_z-88&amp;t=261s" target="_blank" rel="noopener">review ↗ <span class="ts">4:21</span></a></td>
+</tr><tr data-tier="S">
+<td class="name">Viral Enhancers</td>
+<td><span class="tier" style="background:#e0457b">S</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20074%20-%20Viral%20Enhancers.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=25s" target="_blank" rel="noopener">review ↗ <span class="ts">0:25</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Anti-Gravity Technology</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20150%20-%20Anti-Gravity%20Technology.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VE8r1wxXMds&amp;t=155s" target="_blank" rel="noopener">review ↗ <span class="ts">2:35</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Arctic Algae</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20023%20-%20Arctic%20Algae.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ubzyrbh7hpQ&amp;t=127s" target="_blank" rel="noopener">review ↗ <span class="ts">2:07</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Asteroid Mining Consortium</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20002%20-%20Asteroid%20Mining%20Consortium.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=E5ziw7I1TG8&amp;t=164s" target="_blank" rel="noopener">review ↗ <span class="ts">2:44</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Big Asteroid</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20011%20-%20Big%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=E5ziw7I1TG8&amp;t=296s" target="_blank" rel="noopener">review ↗ <span class="ts">4:56</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Birds</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20072%20-%20Birds.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=b4Cex0jjchc&amp;t=88s" target="_blank" rel="noopener">review ↗ <span class="ts">1:28</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Decomposers</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20131%20-%20Decomposers.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jjLBiAIf29k&amp;t=91s" target="_blank" rel="noopener">review ↗ <span class="ts">1:31</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Earth Office</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20105%20-%20Earth%20Office.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kgcV0u1_D6w&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Fish</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20052%20-%20Fish.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=OlDeLnc1AlQ&amp;t=340s" target="_blank" rel="noopener">review ↗ <span class="ts">5:40</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Ganymede Colony</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20081%20-%20Ganymede%20Colony.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pL5jJWch0ow&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Herbivores</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20147%20-%20Herbivores.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pilj3D2lhC8&amp;t=249s" target="_blank" rel="noopener">review ↗ <span class="ts">4:09</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">IO Mining Industries</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20092%20-%20IO%20Mining%20Industries.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pmbKZMZCVus&amp;t=194s" target="_blank" rel="noopener">review ↗ <span class="ts">3:14</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Imported Hydrogen</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20019%20-%20Imported%20Hydrogen.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=UhQsEMCfQ9I&amp;t=155s" target="_blank" rel="noopener">review ↗ <span class="ts">2:35</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Imported Nitrogen</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20163%20-%20Imported%20Nitrogen.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=UhQsEMCfQ9I&amp;t=218s" target="_blank" rel="noopener">review ↗ <span class="ts">3:38</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Lake Marineris</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20053%20-%20Lake%20Marineris.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KbFAFWfqS5w&amp;t=138s" target="_blank" rel="noopener">review ↗ <span class="ts">2:18</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Mangrove</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20059%20-%20Mangrove.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=8RkiMW-6HoM&amp;t=178s" target="_blank" rel="noopener">review ↗ <span class="ts">2:58</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Mass Converter</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20094%20-%20Mass%20Converter.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=nkZPlzIJ5pc&amp;t=88s" target="_blank" rel="noopener">review ↗ <span class="ts">1:28</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Media Group</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20109%20-%20Media%20Group.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=nkZPlzIJ5pc&amp;t=247s" target="_blank" rel="noopener">review ↗ <span class="ts">4:07</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Mohole Area</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20142%20-%20Mohole%20Area.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=wrhO3FlA0sw&amp;t=210s" target="_blank" rel="noopener">review ↗ <span class="ts">3:30</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Nuclear Zone</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20097%20-%20Nuclear%20Zone.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=SkJD5R816ZY&amp;t=181s" target="_blank" rel="noopener">review ↗ <span class="ts">3:01</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Olympus Conference</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20185%20-%20Olympus%20Conference.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=SkJD5R816ZY&amp;t=255s" target="_blank" rel="noopener">review ↗ <span class="ts">4:15</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Optimal Aerobraking</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20031%20-%20Optimal%20Aerobraking.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=dGVY4Wc30QQ&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Predators</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20024%20-%20Predators.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jqhtEnEOo7I&amp;t=185s" target="_blank" rel="noopener">review ↗ <span class="ts">3:05</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Protected Habitats</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20173%20-%20Protected%20Habitats.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jqhtEnEOo7I&amp;t=265s" target="_blank" rel="noopener">review ↗ <span class="ts">4:25</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Research</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20090%20-%20Research.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ZE6YlEfJMEw&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Sabotage</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20121%20-%20Sabotage.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=e6-9a4eYfhU&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Towing a Comet</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20075%20-%20Towing%20a%20Comet.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=PW_pO7tXjvc&amp;t=79s" target="_blank" rel="noopener">review ↗ <span class="ts">1:19</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Trees</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20060%20-%20Trees.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=PW_pO7tXjvc&amp;t=206s" target="_blank" rel="noopener">review ↗ <span class="ts">3:26</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Virus</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20050%20-%20Virus.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=104s" target="_blank" rel="noopener">review ↗ <span class="ts">1:44</span></a></td>
+</tr><tr data-tier="A">
+<td class="name">Water Import from Europa</td>
+<td><span class="tier" style="background:#e8743b">A</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20012%20-%20Water%20Import%20from%20Europa.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=162s" target="_blank" rel="noopener">review ↗ <span class="ts">2:42</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Advanced Alloys</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20071%20-%20Advanced%20Alloys.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1MdGJ26aGGw&amp;t=283s" target="_blank" rel="noopener">review ↗ <span class="ts">4:43</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Advanced Ecosystems</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20135%20-%20Advanced%20Ecosystems.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1MdGJ26aGGw&amp;t=334s" target="_blank" rel="noopener">review ↗ <span class="ts">5:34</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Algae</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20047%20-%20Algae.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VE8r1wxXMds&amp;t=126s" target="_blank" rel="noopener">review ↗ <span class="ts">2:06</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Asteroid</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20009%20-%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=E5ziw7I1TG8&amp;t=17s" target="_blank" rel="noopener">review ↗ <span class="ts">0:17</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Bushes</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20093%20-%20Bushes.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kFsl8FRO9c4&amp;t=84s" target="_blank" rel="noopener">review ↗ <span class="ts">1:24</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Business Contacts</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20111%20-%20Business%20Contacts.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kFsl8FRO9c4&amp;t=133s" target="_blank" rel="noopener">review ↗ <span class="ts">2:13</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Business Network</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20110%20-%20Business%20Network.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kFsl8FRO9c4&amp;t=210s" target="_blank" rel="noopener">review ↗ <span class="ts">3:30</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">CEO&#x27;s Favorite Project</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20149%20-%20CEO%27s%20Favorite%20Project.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=MO7XBo46pZQ&amp;t=233s" target="_blank" rel="noopener">review ↗ <span class="ts">3:53</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Cartel</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20137%20-%20Cartel.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=MO7XBo46pZQ&amp;t=186s" target="_blank" rel="noopener">review ↗ <span class="ts">3:06</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Comet</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20010%20-%20Comet.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=0iFaxMAsMgY&amp;t=154s" target="_blank" rel="noopener">review ↗ <span class="ts">2:34</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Development Center</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20014%20-%20Development%20Center.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=vsUUbZUtvbc&amp;t=99s" target="_blank" rel="noopener">review ↗ <span class="ts">1:39</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Farming</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20118%20-%20Farming.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=OlDeLnc1AlQ&amp;t=244s" target="_blank" rel="noopener">review ↗ <span class="ts">4:04</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Grass</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20087%20-%20Grass.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=2EJaMrZ_0vk&amp;t=179s" target="_blank" rel="noopener">review ↗ <span class="ts">2:59</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Greenhouses</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20096%20-%20Greenhouses.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pilj3D2lhC8&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Heat Trappers</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20178%20-%20Heat%20Trappers.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pilj3D2lhC8&amp;t=139s" target="_blank" rel="noopener">review ↗ <span class="ts">2:19</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Hired Raiders</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20124%20-%20Hired%20Raiders.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=x8qRb6QcB_w&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Ice Asteroid</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20078%20-%20Ice%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=x8qRb6QcB_w&amp;t=87s" target="_blank" rel="noopener">review ↗ <span class="ts">1:27</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Ice Cap Melting</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20181%20-%20Ice%20Cap%20Melting.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=x8qRb6QcB_w&amp;t=128s" target="_blank" rel="noopener">review ↗ <span class="ts">2:08</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Immigrant City</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20200%20-%20Immigrant%20City.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=x8qRb6QcB_w&amp;t=182s" target="_blank" rel="noopener">review ↗ <span class="ts">3:02</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Indentured Workers</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20195%20-%20Indentured%20Workers.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=UhQsEMCfQ9I&amp;t=269s" target="_blank" rel="noopener">review ↗ <span class="ts">4:29</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Interstellar Colony Ship</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20027%20-%20Interstellar%20Colony%20Ship.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=3-_tHek-kjg&amp;t=229s" target="_blank" rel="noopener">review ↗ <span class="ts">3:49</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Invention Contest</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20192%20-%20Invention%20Contest.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pmbKZMZCVus&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Inventors&#x27; Guild</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20006%20-%20Inventors%27%20Guild.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pmbKZMZCVus&amp;t=95s" target="_blank" rel="noopener">review ↗ <span class="ts">1:35</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Investment Loan</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20151%20-%20Investment%20Loan.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pmbKZMZCVus&amp;t=126s" target="_blank" rel="noopener">review ↗ <span class="ts">2:06</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Lava Flows</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20140%20-%20Lava%20Flows.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=u7m8E_7shE8&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Livestock</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20184%20-%20Livestock.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=u7m8E_7shE8&amp;t=156s" target="_blank" rel="noopener">review ↗ <span class="ts">2:36</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Local Heat Trapping</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20190%20-%20Local%20Heat%20Trapping.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=u7m8E_7shE8&amp;t=199s" target="_blank" rel="noopener">review ↗ <span class="ts">3:19</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Media Archives</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20107%20-%20Media%20Archives.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=nkZPlzIJ5pc&amp;t=129s" target="_blank" rel="noopener">review ↗ <span class="ts">2:09</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Medical Lab</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20207%20-%20Medical%20Lab.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=nkZPlzIJ5pc&amp;t=287s" target="_blank" rel="noopener">review ↗ <span class="ts">4:47</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Mineral Deposit</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20062%20-%20Mineral%20Deposit.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Obzd6OjBlLI&amp;t=194s" target="_blank" rel="noopener">review ↗ <span class="ts">3:14</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Mining Area</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20064%20-%20Mining%20Area.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Obzd6OjBlLI&amp;t=255s" target="_blank" rel="noopener">review ↗ <span class="ts">4:15</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Mining Rights</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20067%20-%20Mining%20Rights.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=wrhO3FlA0sw&amp;t=97s" target="_blank" rel="noopener">review ↗ <span class="ts">1:37</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Natural Preserve</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20044%20-%20Natural%20Preserve.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VfGyxX_I94c&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Noctis City</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20017%20-%20Noctis%20City.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VfGyxX_I94c&amp;t=308s" target="_blank" rel="noopener">review ↗ <span class="ts">5:08</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Open City</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20108%20-%20Open%20City.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=SkJD5R816ZY&amp;t=298s" target="_blank" rel="noopener">review ↗ <span class="ts">4:58</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Permafrost Extraction</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20191%20-%20Permafrost%20Extraction.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=dGVY4Wc30QQ&amp;t=175s" target="_blank" rel="noopener">review ↗ <span class="ts">2:55</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Pets</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20172%20-%20Pets.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=dGVY4Wc30QQ&amp;t=329s" target="_blank" rel="noopener">review ↗ <span class="ts">5:29</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Plantation</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20193%20-%20Plantation.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yH5_BfzOAWc&amp;t=165s" target="_blank" rel="noopener">review ↗ <span class="ts">2:45</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Power Supply Consortium</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20160%20-%20Power%20Supply%20Consortium.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jqhtEnEOo7I&amp;t=105s" target="_blank" rel="noopener">review ↗ <span class="ts">1:45</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Protected Valley</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20174%20-%20Protected%20Valley.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jqhtEnEOo7I&amp;t=375s" target="_blank" rel="noopener">review ↗ <span class="ts">6:15</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Quantum Extractor</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20079%20-%20Quantum%20Extractor.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=acAY4Tf8DH0&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Robotic Workforce</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20086%20-%20Robotic%20Workforce.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ZE6YlEfJMEw&amp;t=268s" target="_blank" rel="noopener">review ↗ <span class="ts">4:28</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Small Animals</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20054%20-%20Small%20Animals.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=CvPLwsgKaBs&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Solar Wind Power</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20077%20-%20Solar%20Wind%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=CvPLwsgKaBs&amp;t=183s" target="_blank" rel="noopener">review ↗ <span class="ts">3:03</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Soletta</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20203%20-%20Soletta.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=CvPLwsgKaBs&amp;t=236s" target="_blank" rel="noopener">review ↗ <span class="ts">3:56</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Space Elevator</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20013%20-%20Space%20Elevator.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KF6svHrUbA0&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Standard Technology</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20156%20-%20Standard%20Technology.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yoB4uX9mCnM&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Technology Demonstration</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20204%20-%20Technology%20Demonstration.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=028t1Z_z-88&amp;t=97s" target="_blank" rel="noopener">review ↗ <span class="ts">1:37</span></a></td>
+</tr><tr data-tier="B">
+<td class="name">Urbanized Area</td>
+<td><span class="tier" style="background:#e0b020">B</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20120%20-%20Urbanized%20Area.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=DBCdpe-zuLo&amp;t=268s" target="_blank" rel="noopener">review ↗ <span class="ts">4:28</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Acquired Company</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20106%20-%20Acquired%20Company.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1MdGJ26aGGw&amp;t=144s" target="_blank" rel="noopener">review ↗ <span class="ts">2:24</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Archaebacteria</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20042%20-%20Archaebacteria.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ubzyrbh7hpQ&amp;t=85s" target="_blank" rel="noopener">review ↗ <span class="ts">1:25</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Artificial Lake</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20116%20-%20Artificial%20Lake.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ubzyrbh7hpQ&amp;t=162s" target="_blank" rel="noopener">review ↗ <span class="ts">2:42</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Artificial Photosynthesis</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20115%20-%20Artificial%20Photosynthesis.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ubzyrbh7hpQ&amp;t=189s" target="_blank" rel="noopener">review ↗ <span class="ts">3:09</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Asteroid Mining</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20040%20-%20Asteroid%20Mining.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=E5ziw7I1TG8&amp;t=106s" target="_blank" rel="noopener">review ↗ <span class="ts">1:46</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Beam from a Thorium Asteroid</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20058%20-%20Beam%20from%20a%20Thorium%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=E5ziw7I1TG8&amp;t=226s" target="_blank" rel="noopener">review ↗ <span class="ts">3:46</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Bribed Committee</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20112%20-%20Bribed%20Committee.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=b4Cex0jjchc&amp;t=282s" target="_blank" rel="noopener">review ↗ <span class="ts">4:42</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Capital</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20008%20-%20Capital.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=MO7XBo46pZQ&amp;t=17s" target="_blank" rel="noopener">review ↗ <span class="ts">0:17</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Colonizer Training Camp</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20001%20-%20Colonizer%20Training%20Camp.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=0iFaxMAsMgY&amp;t=99s" target="_blank" rel="noopener">review ↗ <span class="ts">1:39</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Commercial District</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20085%20-%20Commercial%20District.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=0iFaxMAsMgY&amp;t=199s" target="_blank" rel="noopener">review ↗ <span class="ts">3:19</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Convoy from Europa</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20161%20-%20Convoy%20from%20Europa.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=0iFaxMAsMgY&amp;t=296s" target="_blank" rel="noopener">review ↗ <span class="ts">4:56</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Cupola City</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20029%20-%20Cupola%20City.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jjLBiAIf29k&amp;t=60s" target="_blank" rel="noopener">review ↗ <span class="ts">1:00</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Domed Crater</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20016%20-%20Domed%20Crater.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=vsUUbZUtvbc&amp;t=144s" target="_blank" rel="noopener">review ↗ <span class="ts">2:24</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Electro Catapult</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20069%20-%20Electro%20Catapult.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kgcV0u1_D6w&amp;t=140s" target="_blank" rel="noopener">review ↗ <span class="ts">2:20</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Energy Tapping</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20201%20-%20Energy%20Tapping.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kgcV0u1_D6w&amp;t=251s" target="_blank" rel="noopener">review ↗ <span class="ts">4:11</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Eos Chasma National Park</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20026%20-%20Eos%20Chasma%20National%20Park.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=OlDeLnc1AlQ&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Extreme-Cold Fungus</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20134%20-%20Extreme-Cold%20Fungus.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=OlDeLnc1AlQ&amp;t=177s" target="_blank" rel="noopener">review ↗ <span class="ts">2:57</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Flooding</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20188%20-%20Flooding.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=efSqRVYFSYk&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Fueled Generators</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20100%20-%20Fueled%20Generators.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=efSqRVYFSYk&amp;t=193s" target="_blank" rel="noopener">review ↗ <span class="ts">3:13</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">GHG Factories</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20126%20-%20GHG%20Factories.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pL5jJWch0ow&amp;t=172s" target="_blank" rel="noopener">review ↗ <span class="ts">2:52</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">GHG Producing Bacteria</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20034%20-%20GHG%20Producing%20Bacteria.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pL5jJWch0ow&amp;t=221s" target="_blank" rel="noopener">review ↗ <span class="ts">3:41</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Gene Repair</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20091%20-%20Gene%20Repair.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pL5jJWch0ow&amp;t=88s" target="_blank" rel="noopener">review ↗ <span class="ts">1:28</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Geothermal Power</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20117%20-%20Geothermal%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pL5jJWch0ow&amp;t=129s" target="_blank" rel="noopener">review ↗ <span class="ts">2:09</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Giant Space Mirror</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20083%20-%20Giant%20Space%20Mirror.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=2EJaMrZ_0vk&amp;t=119s" target="_blank" rel="noopener">review ↗ <span class="ts">1:59</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Great Dam</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Promo%20-%20X32%20-%20Great%20Dam.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=2EJaMrZ_0vk&amp;t=244s" target="_blank" rel="noopener">review ↗ <span class="ts">4:04</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Great Escarpment Consortium</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20061%20-%20Great%20Escarpment%20Consortium.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=2EJaMrZ_0vk&amp;t=294s" target="_blank" rel="noopener">review ↗ <span class="ts">4:54</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Heather</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20088%20-%20Heather.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pilj3D2lhC8&amp;t=202s" target="_blank" rel="noopener">review ↗ <span class="ts">3:22</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Import of Advanced GHG</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20167%20-%20Import%20of%20Advanced%20GHG.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=UhQsEMCfQ9I&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Industrial Center</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20123%20-%20Industrial%20Center.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=3-_tHek-kjg&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Ironworks</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20101%20-%20Ironworks.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=pmbKZMZCVus&amp;t=285s" target="_blank" rel="noopener">review ↗ <span class="ts">4:45</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Lagrange Observatory</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20196%20-%20Lagrange%20Observatory.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KbFAFWfqS5w&amp;t=90s" target="_blank" rel="noopener">review ↗ <span class="ts">1:30</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Lichen</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20159%20-%20Lichen.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=u7m8E_7shE8&amp;t=76s" target="_blank" rel="noopener">review ↗ <span class="ts">1:16</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Lunar Beam</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20030%20-%20Lunar%20Beam.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=8RkiMW-6HoM&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Methane from Titan</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20018%20-%20Methane%20from%20Titan.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Obzd6OjBlLI&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Mine</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20056%20-%20Mine.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Obzd6OjBlLI&amp;t=154s" target="_blank" rel="noopener">review ↗ <span class="ts">2:34</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Miranda Resort</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20051%20-%20Miranda%20Resort.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=wrhO3FlA0sw&amp;t=162s" target="_blank" rel="noopener">review ↗ <span class="ts">2:42</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Moss</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20122%20-%20Moss.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=wrhO3FlA0sw&amp;t=281s" target="_blank" rel="noopener">review ↗ <span class="ts">4:41</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Nitrophilic Moss</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20146%20-%20Nitrophilic%20Moss.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VfGyxX_I94c&amp;t=245s" target="_blank" rel="noopener">review ↗ <span class="ts">4:05</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Noctis Farming</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20176%20-%20Noctis%20Farming.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=SkJD5R816ZY&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Nuclear Power</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20045%20-%20Nuclear%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=SkJD5R816ZY&amp;t=108s" target="_blank" rel="noopener">review ↗ <span class="ts">1:48</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Ore Processor</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20104%20-%20Ore%20Processor.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=dGVY4Wc30QQ&amp;t=107s" target="_blank" rel="noopener">review ↗ <span class="ts">1:47</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Peroxide Power</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20089%20-%20Peroxide%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=dGVY4Wc30QQ&amp;t=236s" target="_blank" rel="noopener">review ↗ <span class="ts">3:56</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Physics Complex</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20095%20-%20Physics%20Complex.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yH5_BfzOAWc&amp;t=91s" target="_blank" rel="noopener">review ↗ <span class="ts">1:31</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Power Plant</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20141%20-%20Power%20Plant.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jqhtEnEOo7I&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Satellites</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20175%20-%20Satellites.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=e6-9a4eYfhU&amp;t=120s" target="_blank" rel="noopener">review ↗ <span class="ts">2:00</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Search for Life</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20005%20-%20Search%20for%20Life.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=e6-9a4eYfhU&amp;t=200s" target="_blank" rel="noopener">review ↗ <span class="ts">3:20</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Shuttles</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20166%20-%20Shuttles.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=e6-9a4eYfhU&amp;t=421s" target="_blank" rel="noopener">review ↗ <span class="ts">7:01</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Space Station</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20025%20-%20Space%20Station.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KF6svHrUbA0&amp;t=130s" target="_blank" rel="noopener">review ↗ <span class="ts">2:10</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Sponsors</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20068%20-%20Sponsors.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KF6svHrUbA0&amp;t=243s" target="_blank" rel="noopener">review ↗ <span class="ts">4:03</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Steelworks</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20103%20-%20Steelworks.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yoB4uX9mCnM&amp;t=96s" target="_blank" rel="noopener">review ↗ <span class="ts">1:36</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Strip Mine</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20138%20-%20Strip%20Mine.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yoB4uX9mCnM&amp;t=147s" target="_blank" rel="noopener">review ↗ <span class="ts">2:27</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Subterranean Reservoir</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20127%20-%20Subterranean%20Reservoir.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yoB4uX9mCnM&amp;t=245s" target="_blank" rel="noopener">review ↗ <span class="ts">4:05</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Titanium Mine</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20144%20-%20Titanium%20Mine.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=028t1Z_z-88&amp;t=348s" target="_blank" rel="noopener">review ↗ <span class="ts">5:48</span></a></td>
+</tr><tr data-tier="C">
+<td class="name">Trans-Neptune Probe</td>
+<td><span class="tier" style="background:#5aa84f">C</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20084%20-%20Trans-Neptune%20Probe.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=PW_pO7tXjvc&amp;t=126s" target="_blank" rel="noopener">review ↗ <span class="ts">2:06</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Adaptation Technology</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20153%20-%20Adaptation%20Technology.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1MdGJ26aGGw&amp;t=240s" target="_blank" rel="noopener">review ↗ <span class="ts">4:00</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Adapted Lichen</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20048%20-%20Adapted%20Lichen.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1MdGJ26aGGw&amp;t=179s" target="_blank" rel="noopener">review ↗ <span class="ts">2:59</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Ants</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20035%20-%20Ants.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VE8r1wxXMds&amp;t=193s" target="_blank" rel="noopener">review ↗ <span class="ts">3:13</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Biomass Combustors</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20183%20-%20Biomass%20Combustors.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=b4Cex0jjchc&amp;t=17s" target="_blank" rel="noopener">review ↗ <span class="ts">0:17</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Black Polar Dust</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20022%20-%20Black%20Polar%20Dust.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=b4Cex0jjchc&amp;t=179s" target="_blank" rel="noopener">review ↗ <span class="ts">2:59</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Breathing Filters</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20114%20-%20Breathing%20Filters.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=b4Cex0jjchc&amp;t=238s" target="_blank" rel="noopener">review ↗ <span class="ts">3:58</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Building Industries</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20065%20-%20Building%20Industries.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kFsl8FRO9c4&amp;t=17s" target="_blank" rel="noopener">review ↗ <span class="ts">0:17</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Callisto Penal Mines</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20082%20-%20Callisto%20Penal%20Mines.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kFsl8FRO9c4&amp;t=288s" target="_blank" rel="noopener">review ↗ <span class="ts">4:48</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Carbonate Processing</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20043%20-%20Carbonate%20Processing.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=MO7XBo46pZQ&amp;t=78s" target="_blank" rel="noopener">review ↗ <span class="ts">1:18</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Caretaker Contract</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20154%20-%20Caretaker%20Contract.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=MO7XBo46pZQ&amp;t=125s" target="_blank" rel="noopener">review ↗ <span class="ts">2:05</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Cloud Seeding</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20004%20-%20Cloud%20Seeding.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=0iFaxMAsMgY&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Corporate Stronghold</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20182%20-%20Corporate%20Stronghold.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jjLBiAIf29k&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Deep Well Heating</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20003%20-%20Deep%20Well%20Heating.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=jjLBiAIf29k&amp;t=177s" target="_blank" rel="noopener">review ↗ <span class="ts">2:57</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Designed Microorganisms</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20155%20-%20Designed%20Microorganisms.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=vsUUbZUtvbc&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Energy Saving</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20189%20-%20Energy%20Saving.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=kgcV0u1_D6w&amp;t=197s" target="_blank" rel="noopener">review ↗ <span class="ts">3:17</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Fuel Factory</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20180%20-%20Fuel%20Factory.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=efSqRVYFSYk&amp;t=133s" target="_blank" rel="noopener">review ↗ <span class="ts">2:13</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Fusion Power</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20132%20-%20Fusion%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=efSqRVYFSYk&amp;t=244s" target="_blank" rel="noopener">review ↗ <span class="ts">4:04</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Immigration Shuttles</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20198%20-%20Immigration%20Shuttles.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=x8qRb6QcB_w&amp;t=238s" target="_blank" rel="noopener">review ↗ <span class="ts">3:58</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Imported GHG</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20162%20-%20Imported%20GHG.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=UhQsEMCfQ9I&amp;t=99s" target="_blank" rel="noopener">review ↗ <span class="ts">1:39</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Insulation</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20152%20-%20Insulation.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=3-_tHek-kjg&amp;t=185s" target="_blank" rel="noopener">review ↗ <span class="ts">3:05</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Land Claim</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20066%20-%20Land%20Claim.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KbFAFWfqS5w&amp;t=194s" target="_blank" rel="noopener">review ↗ <span class="ts">3:14</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Lightning Harvest</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20046%20-%20Lightning%20Harvest.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=u7m8E_7shE8&amp;t=129s" target="_blank" rel="noopener">review ↗ <span class="ts">2:09</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Magnetic Field Generators</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20165%20-%20Magnetic%20Field%20Generators.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=8RkiMW-6HoM&amp;t=129s" target="_blank" rel="noopener">review ↗ <span class="ts">2:09</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Mining Expedition</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20063%20-%20Mining%20Expedition.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=wrhO3FlA0sw&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Nitrite Reducing Bacteria</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20157%20-%20Nitrite%20Reducing%20Bacteria.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VfGyxX_I94c&amp;t=94s" target="_blank" rel="noopener">review ↗ <span class="ts">1:34</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Phobos Space Haven</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20021%20-%20Phobos%20Space%20Haven.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yH5_BfzOAWc&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Rad-Chem Factory</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20205%20-%20Rad-Chem%20Factory.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=acAY4Tf8DH0&amp;t=125s" target="_blank" rel="noopener">review ↗ <span class="ts">2:05</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Regolith Eaters</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20033%20-%20Regolith%20Eaters.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=acAY4Tf8DH0&amp;t=235s" target="_blank" rel="noopener">review ↗ <span class="ts">3:55</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Release of Inert Gases</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20036%20-%20Release%20of%20Inert%20Gases.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=acAY4Tf8DH0&amp;t=332s" target="_blank" rel="noopener">review ↗ <span class="ts">5:32</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Rover Construction</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20038%20-%20Rover%20Construction.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ZE6YlEfJMEw&amp;t=314s" target="_blank" rel="noopener">review ↗ <span class="ts">5:14</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Solar Power</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20113%20-%20Solar%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=CvPLwsgKaBs&amp;t=149s" target="_blank" rel="noopener">review ↗ <span class="ts">2:29</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Space Mirrors</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20076%20-%20Space%20Mirrors.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KF6svHrUbA0&amp;t=63s" target="_blank" rel="noopener">review ↗ <span class="ts">1:03</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Symbiotic Fungus</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20133%20-%20Symbiotic%20Fungus.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yoB4uX9mCnM&amp;t=286s" target="_blank" rel="noopener">review ↗ <span class="ts">4:46</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Tardigrades</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20049%20-%20Tardigrades.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=028t1Z_z-88&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Tectonic Stress Power</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20145%20-%20Tectonic%20Stress%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=028t1Z_z-88&amp;t=193s" target="_blank" rel="noopener">review ↗ <span class="ts">3:13</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Toll Station</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20099%20-%20Toll%20Station.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=PW_pO7tXjvc&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Tropical Resort</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20098%20-%20Tropical%20Resort.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=PW_pO7tXjvc&amp;t=256s" target="_blank" rel="noopener">review ↗ <span class="ts">4:16</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Tundra Farming</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20169%20-%20Tundra%20Farming.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=DBCdpe-zuLo&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Underground City</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20032%20-%20Underground%20City.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=DBCdpe-zuLo&amp;t=82s" target="_blank" rel="noopener">review ↗ <span class="ts">1:22</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Vesta Shipyard</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20057%20-%20Vesta%20Shipyard.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=DBCdpe-zuLo&amp;t=351s" target="_blank" rel="noopener">review ↗ <span class="ts">5:51</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Water Splitting Plant</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20177%20-%20Water%20Splitting%20Plant.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=240s" target="_blank" rel="noopener">review ↗ <span class="ts">4:00</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Wave Power</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20139%20-%20Wave%20Power.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=312s" target="_blank" rel="noopener">review ↗ <span class="ts">5:12</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Windmills</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20168%20-%20Windmills.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=374s" target="_blank" rel="noopener">review ↗ <span class="ts">6:14</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Worms</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20130%20-%20Worms.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=449s" target="_blank" rel="noopener">review ↗ <span class="ts">7:29</span></a></td>
+</tr><tr data-tier="D">
+<td class="name">Zeppelins</td>
+<td><span class="tier" style="background:#4a90d9">D</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20129%20-%20Zeppelins.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=1H10RSudm9w&amp;t=510s" target="_blank" rel="noopener">review ↗ <span class="ts">8:30</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Aerobraked Ammonia Asteroid</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20170%20-%20Aerobraked%20Ammonia%20Asteroid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=VE8r1wxXMds&amp;t=15s" target="_blank" rel="noopener">review ↗ <span class="ts">0:15</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Aquifer Pumping</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20187%20-%20Aquifer%20Pumping.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=ubzyrbh7hpQ&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Dust Seals</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20119%20-%20Dust%20Seals.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=vsUUbZUtvbc&amp;t=224s" target="_blank" rel="noopener">review ↗ <span class="ts">3:44</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Equatorial Magnetizer</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20015%20-%20Equatorial%20Magnetizer.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=OlDeLnc1AlQ&amp;t=106s" target="_blank" rel="noopener">review ↗ <span class="ts">1:46</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Food Factory</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20041%20-%20Food%20Factory.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=efSqRVYFSYk&amp;t=69s" target="_blank" rel="noopener">review ↗ <span class="ts">1:09</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Hackers</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20125%20-%20Hackers.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pilj3D2lhC8&amp;t=72s" target="_blank" rel="noopener">review ↗ <span class="ts">1:12</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Industrial Microbes</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20158%20-%20Industrial%20Microbes.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=3-_tHek-kjg&amp;t=77s" target="_blank" rel="noopener">review ↗ <span class="ts">1:17</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Magnetic Field Dome</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20171%20-%20Magnetic%20Field%20Dome.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=8RkiMW-6HoM&amp;t=72s" target="_blank" rel="noopener">review ↗ <span class="ts">1:12</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Martian Rails</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20007%20-%20Martian%20Rails.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=nkZPlzIJ5pc&amp;t=16s" target="_blank" rel="noopener">review ↗ <span class="ts">0:16</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Micro-Mills</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20164%20-%20Micro-Mills.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=Obzd6OjBlLI&amp;t=102s" target="_blank" rel="noopener">review ↗ <span class="ts">1:42</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Power Grid</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20102%20-%20Power%20Grid.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yH5_BfzOAWc&amp;t=221s" target="_blank" rel="noopener">review ↗ <span class="ts">3:41</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Power Infrastructure</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20194%20-%20Power%20Infrastructure.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=yH5_BfzOAWc&amp;t=285s" target="_blank" rel="noopener">review ↗ <span class="ts">4:45</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Rad-Suits</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20186%20-%20Rad-Suits.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=acAY4Tf8DH0&amp;t=179s" target="_blank" rel="noopener">review ↗ <span class="ts">2:59</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Security Fleet</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Corporate%20Era%20-%20028%20-%20Security%20Fleet.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=e6-9a4eYfhU&amp;t=291s" target="_blank" rel="noopener">review ↗ <span class="ts">4:51</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Soil Factory</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20179%20-%20Soil%20Factory.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=CvPLwsgKaBs&amp;t=80s" target="_blank" rel="noopener">review ↗ <span class="ts">1:20</span></a></td>
+</tr><tr data-tier="F">
+<td class="name">Special Design</td>
+<td><span class="tier" style="background:#8a8d93">F</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20206%20-%20Special%20Design.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><a href="https://www.youtube.com/watch?v=KF6svHrUbA0&amp;t=168s" target="_blank" rel="noopener">review ↗ <span class="ts">2:48</span></a></td>
+</tr><tr data-tier="Whyyy?!?">
+<td class="name">Underground Detonations</td>
+<td><span class="tier" style="background:#6b3fa0">Whyyy?!?</span></td>
+<td><a href="https://cards.hadronikle.com/projects/Base%20-%20202%20-%20Underground%20Detonations.png" target="_blank" rel="noopener">image ↗</a></td>
+<td><span class="pending">not reviewed</span></td>
+</tr></tbody></table>
+<script>
+ const tb=document.getElementById('tb'),q=document.getElementById('q'),cnt=document.getElementById('count');
+ const off=new Set();
+ function apply(){
+   const term=q.value.trim().toLowerCase();let n=0;
+   for(const r of tb.rows){
+     const t=r.dataset.tier, name=r.cells[0].textContent.toLowerCase();
+     const show=!off.has(t)&&name.includes(term);
+     r.style.display=show?'':'none'; if(show)n++;
+   }
+   cnt.textContent=n+' cards shown';
+ }
+ document.querySelectorAll('.filt').forEach(b=>b.onclick=()=>{
+   const t=b.dataset.t; if(off.has(t)){off.delete(t);b.classList.remove('off')}else{off.add(t);b.classList.add('off')} apply();
+ });
+ q.oninput=apply;
+
+ // --- sorting ---
+ const tierRank={'S':0,'A':1,'B':2,'C':3,'D':4,'F':5,'Whyyy?!?':6};
+ function timeVal(r){
+   const ts=r.cells[3].querySelector('.ts');
+   if(!ts) return Infinity; // "not reviewed" sorts last
+   const[m,s]=ts.textContent.split(':').map(Number);
+   return m*60+s;
+ }
+ function keyVal(r,col){
+   if(col==='tier') return tierRank[r.dataset.tier] ?? 99;
+   if(col==='time') return timeVal(r);
+   return r.cells[0].textContent.trim().toLowerCase();
+ }
+ let sortCol=null, sortDir=1;
+ function sortBy(col,th){
+   if(sortCol===col){sortDir=-sortDir}else{sortCol=col;sortDir=1}
+   document.querySelectorAll('th.sortable').forEach(h=>{h.classList.remove('asc','desc');h.querySelector('.arrow').textContent='↕'});
+   th.classList.add(sortDir>0?'asc':'desc');
+   th.querySelector('.arrow').textContent=sortDir>0?'↑':'↓';
+   const rows=[...tb.rows];
+   rows.sort((a,b)=>{
+     const va=keyVal(a,col), vb=keyVal(b,col);
+     if(va<vb) return -sortDir;
+     if(va>vb) return sortDir;
+     return 0;
+   });
+   rows.forEach(r=>tb.appendChild(r));
+ }
+ document.querySelectorAll('th.sortable').forEach(th=>th.onclick=()=>sortBy(th.dataset.sort,th));
+
+ apply();
+</script>
+</body></html>
